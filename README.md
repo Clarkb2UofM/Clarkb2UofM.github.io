@@ -38,16 +38,35 @@ Naming your repository in this way lets Github know that you want to create a we
 Your repo is now setup and ready for use.
 
 At this point in the tutorial, your site can already be viewed. 
-Navigate to ``` https://YourUserName.github.io/ ```
+Navigate to ```https://YourUserName.github.io/```
 Currently, the only thing displayed will be the default Reame.md that Guthub created for you.
 In order to display your resume on the site, you will need to upload files to the repository
 
-### Uploading files to your Repository
-Now that the respoitory is set up, the next step is to upload your resume to the repository.
-- A
-- A
+---
 
-### Choosing a theme for your site
+### Step 2 - Uploading files to your Repository
+Now that the respoitory is set up, the next step is to upload your resume to the repository.
+- Click the button labeled 'Add file'
+- Select Upload files and select your resume
+
+From here there are 2 options
+Github pages will use ```readme.md``` as the homepage of your site unless your provide a file named ```index.md```
+
+1. Using the resume as the homepage
+If you want your resume to be used as the homepage of the site, the file name will need to be changed.
+To use your resume as the homepage for your site:
+- Rename your resume to ```index.md```
+
+2. Using another page for the homepage
+The other option allows for more flexiblity, giving you the option to host multiple pages on your site.
+To use another file other than your resume as the homepage for your site:
+- Create a new file named ```index.md```
+- You can then add a link from your home page to your resume by adding the following line to index.md
+``` This code creates a link to your resume -> [Link](Resume.md) ```
+
+---
+
+### Step 3 - Choosing a theme for your site
 Github pages gives its users alot of options to customize their sites.
 Here are some popular themes that can easily be added to your site
 - Slate - Slate is a simple theme that is clean and easy to read,  [Preview](https://pages-themes.github.io/slate/)
@@ -57,19 +76,27 @@ Here are some popular themes that can easily be added to your site
 There are many other themes available for Github pages, a more extensive list can be found [here](https://pages.github.com/themes/)
 In this tutorial we will be using the theme Slate
 
-To add the the theme to your site, 
-- Navigate to _config.yml
-- add the following line of code to your file
+To add the the theme to your site:
+- Return to the screen showing the files in your repository
+- Create a new file named ```_config.yml```
+- add the following block of code to your file
+
 ```
     theme: jekyll-theme-slate
+    title: Your Name
+    description: Digital Resume
 ```
+
 - This will tell the software that you want your theme to be set to slate
 
+---
+
 ### Conclusion
+This tutorial outlines only the basics of hosting your resume on gitlab. If you found this helpful I encourage you to explore the other customizability options that Github offers
 
+--- 
 
-
-## FAQ
+#### FAQ
 
 **Q:** "Why is Markdown better than a word processor?"
 **A:**  Answer
