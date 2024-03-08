@@ -3,13 +3,13 @@
 By Ben Clark
 
 ---
-#### Purpose
+### Purpose
 By the end of this tutorial, you will be able to host your own resume on GitHub pages. 
 An example of the finished product is available [here](https://clarkb2uofm.github.io).
 
 For this tutorial, we will be using documents formatted with Markdown language. Andrew Etter, author of the best selling book _Modern Technical Writing_, recomends the use of markdown for technical documents because of it is lightweight, easy to learn and universally used. 
 
-#### Prerequisites
+### Prerequisites
 Before you begin, you should have the following:
 - A resume in markdown format. You can find a tutorial on how to use markdown [here](https://www.markdowntutorial.com/).
 - An account on GitHub. If you do not have an account, you can create one [here](https://github.com/signup).
@@ -20,8 +20,8 @@ Throughout this tutorial, a number of terms are used that may not be familiar to
 - Commit: A _commit_ is work saved online. _Commiting_ files is saving those files to Github.
 
 ---
-
-### Step 1 - Creating a Repository
+### Instructions
+#### Step 1 - Creating a Repository
 The first step in hosting your resume online is to set up your Github account. In order to store your resume online, you will need a repository.
 1. Sign into your account on [Github](https://github.com/).
 2. Click the green  **'Create repository'** button on the left hand side of the screen.
@@ -40,18 +40,18 @@ Your repository is now setup and ready for use.
 
 ---
 
-### Step 2 - Uploading files to your Repository
+#### Step 2 - Uploading files to your Repository
 Now that the repository is set up, the next step is to upload your resume to the repository.
 1. Click the **'Add file'** button.
 2. Click **'Create new file'** in the drop down menu.
-3. Naviate to the window labeled **'Name your file...'** and type ```index.md```.
+3. Type `index.md` into the field labeled **'Name your file...'**.
 
-Github pages is set up to use ```index.md``` as the homepage of your site.
+Github pages is set up to use `index.md` as the homepage of your site.
 4. Paste your resume into the text box below.
 Your resume must be formatted as markdown text, _see the prerequisites listed above_.
-5. After entering your resume, click **'Commit changes...'** to continue.
+5. Click **'Commit changes...'** to continue.
 
-A window will open up asking for details regarding your commit. A commit is a saved file, if you plan on changing your resume in the future, you will still be able to view old versions of your resume by looking at the commits. All of the pre-selected commit options on the screen will work for our purposes today.
+A window will open up asking for details regarding your commit. All of the pre-selected commit options on the screen will work for our purposes today.
 
 - _Optionally_, if expect to edit your resume in the future, you can add information in the box labeled 'Extended description' detailing the current state of your resume.
 
@@ -62,12 +62,12 @@ Your resume has now been added to the repository.
 ![AddingFiles](assets/AddingFiles.gif) 
 ---
 
-### Step 3 - Choosing a theme for your site
+#### Step 3 - Choosing a theme for your site
 Github pages offers many options to customize your site.
 Here are some popular themes that can easily be added to your site:
-- Slate - Slate is a simple theme that is clean and easy to read.  [Preview](https://pages-themes.github.io/slate/)
-- Merlot - Merlot ......  [Preview](https://pages-themes.github.io/merlot/)
-- Time Machine - Time Machine ......  [Preview](https://pages-themes.github.io/time-machine/)
+- Slate - Slate is a simple theme that is clean and easy to read. Here is a [Preview](https://pages-themes.github.io/slate/)
+- Merlot - Merlot is a more stylized theme with more color than some of the other options. Here is a [Preview](https://pages-themes.github.io/merlot/)
+- Time Machine - Time Machine provides a theme resembling a blog or newpaper article. Here is a [Preview](https://pages-themes.github.io/time-machine/)
 
 There are many other themes available for Github pages, a more extensive list can be found [here](https://pages.github.com/themes/).
 In this tutorial we will be using the theme Slate.
@@ -75,11 +75,11 @@ In this tutorial we will be using the theme Slate.
 To add the the theme to your site:
 1. Click the **'Add file'** button.
 2. Click **'Create new file'** in the drop down menu.
-2. This file must be named ```_config.yml```.
+3. Type `_config.yml` into the field labeled **'Name your file...'**.
 
 _config.yml is a file that Github uses to generate your site. It contains the properties that are used to style and customize your pages.
 
-4. Add the following block of code to your file:
+4. Paste the following block of code into your file:
 
 ```
     theme: jekyll-theme-slate
@@ -93,22 +93,29 @@ This will tell Github that you want your theme to be set to Slate.
 This displays the commit options menu. As before, all the default settings will be alright for our purposes right now.
 
 6. Click **'Commit changes'** to save your work.
----
-
-At this point, your site is set up. You can view the finished product by going to WEBSITE HERE LINK.
 
 ---
-### Step 4 - Supporting your site into the future
+
+At this point, your site is set up. You can view the finished product by going to `https://YourUserName.github.io/`. This site is built with Jekyll, a static site generator. In Modern Technical Writing, Etter explains that static site generators make creating simple sites simple, efficent and easy to maintain. You can change your resume later on at any time and Github will change your website accordingly.
+
+---
+#### Step 4 - Supporting your site into the future
 Your resume is now set up and hosted on Github pages.
+In _Modern Technical Writing_, Etter mentions how site built in this way are easy to modify.
 If you want to edit your resume in the future, the easiest way to do so is by editing the file directly in Github.
 1. Click on the file containing your resume (index.md)
 2. Click on the **pencil icon** in the top right-hand corner of the file to begin editing the file.
-3. Click the **'Commit Changes...'** button after you have finished making changes. 
+3. Click the **'Commit Changes...'** to save your work.
 
 This again displays the commit options menu. The default options in this menu will still suit our purposes.
 
 4. Click **'Commit Changes'** to save your updated resume.
 
+---
+#### More Resources
+ - Github has their own [Quickstart](https://docs.github.com/en/pages/quickstart) guide that explains how to host a site on Github pages.
+ - Andrew Etter's book [Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) explains the concepts of good technical writing in more detail.
+- This is an interactive [markdown tutorial](https://www.markdowntutorial.com/) that teaches all the important concepts of the format.
 ---
 ### Conclusion
 This tutorial outlines only the basics of hosting your resume on gitlab. If you found this helpful I encourage you to explore the other customizability options that Github offers
@@ -122,7 +129,7 @@ This tutorial outlines only the basics of hosting your resume on gitlab. If you 
 ### FAQ
 
 **Q:** "Why is Markdown better than a word processor?"
-**A:**  Answer
+**A:**  Markdown is simple and easy to learn. It provides consistent a format and can be written in any text editor. It can be converted to other formats much easier than the documents written in a word processer.
 
 **Q:**  "Why is my resume not showing up?"
 **A:**  There are a number of possible reasons your resume isn't showing up:
@@ -134,6 +141,6 @@ This tutorial outlines only the basics of hosting your resume on gitlab. If you 
 
 ---
 ### Authors and Acknowledgements
-Written by Ben Clark
-- Special thanks to Ethan Ducharme and Lyle Arcinas for their constructive feedback in class.
-- Credit to Andrew Etter, author of _Modern Technical Writing_.
+- Written by **Ben Clark**
+- Special thanks to **Ethan Ducharme** and **Lyle Arcinas** for their constructive feedback in class.
+- Credit to **Andrew Etter**, author of _Modern Technical Writing_.
