@@ -7,7 +7,7 @@ By Ben Clark
 By the end of this tutorial, you will be able to host your own resume on GitHub pages. 
 An example of the finished product is available [here](https://clarkb2uofm.github.io).
 
-For this tutorial, we will be using documents formatted with Markdown language. Andrew Etter, author of the best selling book _Modern Technical Writing_, recomends the use of markdown for technical documents because of it is lightweight, easy to learn and universally used. 
+For this tutorial, we will be using documents formatted with Markdown language. Andrew Etter, author of the best selling book _Modern Technical Writing_, recommends the use of markdown for technical documents because of it is lightweight, easy to learn and universally used. 
 
 ### Prerequisites
 Before you begin, you should have the following:
@@ -16,7 +16,7 @@ Before you begin, you should have the following:
 
 #### Terminology
 Throughout this tutorial, a number of terms are used that may not be familiar to all users:
-- Repository: A repository is place to store files online.
+- Repository: A repository is a place to store files online.
 - Commit: A commit is work saved online. Commiting files is saving those files to Github.
 
 ---
@@ -31,12 +31,12 @@ This loads the **Create a new repository** page.
 
 3. Enter ``` YourUserName.github.io ``` into the repository name field (where YourUserName is your username on GitHub).
 
-Naming your repository in this way let's Github know that you want to create a website from this repository.
+Naming your repository in this way lets Github know that you want to create a website from this repository.
 
 4. Click the checkbox next to **'Add a README file'**.
 5. Click the **'Create repository'** button at the bottom of your screen. 
 
-Your repository is now setup and ready for use.
+Your repository is now set up and ready for use.
 
 ---
 
