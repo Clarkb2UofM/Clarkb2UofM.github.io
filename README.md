@@ -11,13 +11,13 @@ For this tutorial, we will be using documents formatted with Markdown language. 
 
 ### Prerequisites
 Before you begin, you should have the following:
-- A resume in markdown format. You can find a tutorial on how to use markdown [here](https://www.markdowntutorial.com/).
-- An account on GitHub. If you do not have an account, you can create one [here](https://github.com/signup).
+- A resume in markdown format. You can find a [tutorial](https://www.markdowntutorial.com/) on how to use markdown.
+- An account on GitHub. If you do not have an account, you can [create](https://github.com/signup) one.
 
 #### Terminology
 Throughout this tutorial, a number of terms are used that may not be familiar to all users:
-- Repository: A _repository_ is place to store files online.
-- Commit: A _commit_ is work saved online. _Commiting_ files is saving those files to Github.
+- Repository: A repository is place to store files online.
+- Commit: A commit is work saved online. Commiting files is saving those files to Github.
 
 ---
 ### Instructions
@@ -47,13 +47,16 @@ Now that the repository is set up, the next step is to upload your resume to the
 3. Type `index.md` into the field labeled **'Name your file...'**.
 
 Github pages is set up to use `index.md` as the homepage of your site.
+
 4. Paste your resume into the text box below.
+
 Your resume must be formatted as markdown text, _see the prerequisites listed above_.
+
 5. Click **'Commit changes...'** to continue.
 
 A window will open up asking for details regarding your commit. All of the pre-selected commit options on the screen will work for our purposes today.
 
-- _Optionally_, if expect to edit your resume in the future, you can add information in the box labeled 'Extended description' detailing the current state of your resume.
+- _Optionally_, if you expect to edit your resume in the future, you can add information in the box labeled 'Extended description' detailing the current state of your resume.
 
 6. Click the green **'Commit changes'** button in the bottom right.
 
@@ -70,7 +73,7 @@ Here are some popular themes that can easily be added to your site:
 - Time Machine - Time Machine provides a theme resembling a blog or newpaper article. Here is a [Preview](https://pages-themes.github.io/time-machine/)
 
 There are many other themes available for Github pages, a more extensive list can be found [here](https://pages.github.com/themes/).
-In this tutorial we will be using the theme Slate.
+In this tutorial we will be using the theme **Slate**.
 
 To add the the theme to your site:
 1. Click the **'Add file'** button.
@@ -90,7 +93,7 @@ This will tell Github that you want your theme to be set to Slate.
 
 5. Click **'Commit changes...'** to continue.
 
-This displays the commit options menu. As before, all the default settings will be alright for our purposes right now.
+This displays the commit options menu. As before, all of the default settings will be alright for our purposes right now.
 
 6. Click **'Commit changes'** to save your work.
 
@@ -101,8 +104,7 @@ At this point, your site is set up. You can view the finished product by going t
 ---
 #### Step 4 - Supporting your site into the future
 Your resume is now set up and hosted on Github pages.
-In _Modern Technical Writing_, Etter mentions how site built in this way are easy to modify.
-If you want to edit your resume in the future, the easiest way to do so is by editing the file directly in Github.
+In _Modern Technical Writing_, Etter mentions how site built in this way are easy to modify. If you want to edit your resume in the future, the easiest way to do so is by editing the file directly in Github.
 1. Click on the file containing your resume (index.md)
 2. Click on the **pencil icon** in the top right-hand corner of the file to begin editing the file.
 3. Click the **'Commit Changes...'** to save your work.
@@ -112,18 +114,22 @@ This again displays the commit options menu. The default options in this menu wi
 4. Click **'Commit Changes'** to save your updated resume.
 
 ---
-#### More Resources
+
+### More Resources
  - Github has their own [Quickstart](https://docs.github.com/en/pages/quickstart) guide that explains how to host a site on Github pages.
  - Andrew Etter's book [Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) explains the concepts of good technical writing in more detail.
 - This is an interactive [markdown tutorial](https://www.markdowntutorial.com/) that teaches all the important concepts of the format.
----
-### Conclusion
-This tutorial outlines only the basics of hosting your resume on gitlab. If you found this helpful I encourage you to explore the other customizability options that Github offers
 
 --- 
 ### Example finished Website
 
 ![Demo](assets/Demo.gif) 
+
+---
+### Authors and Acknowledgements
+- Written by **Ben Clark**
+- Special thanks to **Ethan Ducharme** and **Lyle Arcinas** for their constructive feedback in class.
+- Credit to **Andrew Etter**, author of _Modern Technical Writing_.
 
 ---
 ### FAQ
@@ -138,9 +144,3 @@ This tutorial outlines only the basics of hosting your resume on gitlab. If you 
     - By default, Github will look for your resume outside of any folders. If it is in a folder, remove it and try again.
 2. Your file names are incorrect
     - Github pages will be looking for the following file name to use as the homepage of your site: `index.md`.
-
----
-### Authors and Acknowledgements
-- Written by **Ben Clark**
-- Special thanks to **Ethan Ducharme** and **Lyle Arcinas** for their constructive feedback in class.
-- Credit to **Andrew Etter**, author of _Modern Technical Writing_.
