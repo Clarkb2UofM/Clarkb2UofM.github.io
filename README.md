@@ -80,7 +80,7 @@ _config.yml is a file that Github uses to help in generate your site. It contain
 ```
     theme: jekyll-theme-slate
     title: Your Name
-    description: Digital Resume
+    description: Your Contact Info
 ```
 This will tell Github that you want your theme to be set to slate
 - After entering this text, click **'Commit changes...'** to continue
