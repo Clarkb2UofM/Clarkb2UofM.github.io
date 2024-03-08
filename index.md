@@ -1,6 +1,3 @@
-## Ben Clark 
-clarkb2@myumanitoba.ca | (431) 999-1585
-
 ### Work Experience
 <hr style="margin: -10px">
 
